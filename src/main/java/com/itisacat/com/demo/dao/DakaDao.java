@@ -1,4 +1,4 @@
-package com.itisacat.com.demo.main.com.demo.dao;
+package com.itisacat.com.demo.dao;
 
 
 import com.itisacat.basic.framework.dao.annotation.MyBatisRepository;

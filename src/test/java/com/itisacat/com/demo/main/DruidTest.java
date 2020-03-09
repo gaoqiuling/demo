@@ -1,7 +1,7 @@
 package com.itisacat.com.demo.main;
 
 import com.itisacat.basic.framework.dao.route.DataSourceSwitch;
-import com.itisacat.com.demo.main.com.demo.dao.DakaDao;
+import com.itisacat.com.demo.dao.DakaDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @PropertySource("classpath:application.properties")
 @ComponentScan("com.itisacat.basic.framework")
-public class DemoApplicationTests {
+public class DruidTest {
     @Autowired
     private DakaDao dakaDao;
 
