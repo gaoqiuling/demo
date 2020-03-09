@@ -1,4 +1,4 @@
-package com.itisacat.com.demo.main;
+package com.itisacat.com.demo.main.model;
 
 import com.itisacat.basic.framework.core.util.EmptyUtils;
 import com.itisacat.common.support.model.ColumnIdEntity;
