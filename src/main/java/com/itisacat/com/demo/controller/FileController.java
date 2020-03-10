@@ -1,6 +1,7 @@
 package com.itisacat.com.demo.controller;
 
 import com.itisacat.basic.framework.core.exception.AppException;
+import com.itisacat.basic.framework.core.util.DateUtil;
 import com.itisacat.basic.framework.core.util.EmptyUtils;
 import com.itisacat.basic.framework.rest.model.DataResult;
 import com.itisacat.com.demo.support.model.request.UploadRequest;
@@ -43,7 +44,7 @@ public class FileController {
     }
 
     @RequestMapping(value = "test", method = RequestMethod.GET)
-    public DataResult<String> upload(){
-        return DataResult.ok("aa");
+    public DataResult<Date> test() {
+        return DataResult.ok(DateUtil.currentDate());
     }
 }

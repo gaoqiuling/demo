@@ -34,4 +34,24 @@ public class CompressHandler extends HandlerInterceptorAdapter {
             throws Exception {
         headers.get().clear();
     }
+
+    public static String getContentEncoding() {
+        Map<String, String> headerValue = headers.get();
+        if (headerValue != null) {
+            return headerValue.get(CONTENT_ENCODING_STRING);
+        } else {
+            return null;
+        }
+
+    }
+
+    public static String getAcceptEncoding() {
+        Map<String, String> headerValue = headers.get();
+        if (headerValue != null) {
+            return headerValue.get(ACCEPT_ENCODING_STRING);
+        } else {
+            return null;
+        }
+
+    }
 }
