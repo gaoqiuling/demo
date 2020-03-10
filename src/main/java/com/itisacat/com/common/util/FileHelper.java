@@ -1,9 +1,9 @@
-package com.itisacat.common.util;
+package com.itisacat.com.common.util;
 
 
 import com.itisacat.basic.framework.core.config.BaseProperties;
 import com.itisacat.basic.framework.core.exception.AppException;
-import com.itisacat.common.support.model.FileItemStream;
+import com.itisacat.com.common.support.model.FileItemStream;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.lang3.exception.ExceptionUtils;
@@ -31,7 +31,6 @@ import java.security.SecureRandom;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-@Service
 @Log4j2
 public class FileHelper {
     private static final Map<String, String> FILE_TYPE_MAP = new HashMap();

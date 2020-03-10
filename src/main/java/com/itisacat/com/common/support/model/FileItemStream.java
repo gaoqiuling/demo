@@ -1,4 +1,4 @@
-package com.itisacat.common.support.model;
+package com.itisacat.com.common.support.model;
 
 import org.apache.commons.fileupload.FileItem;
 

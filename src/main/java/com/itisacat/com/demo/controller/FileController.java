@@ -18,8 +18,6 @@ import java.util.*;
 @RequestMapping(value = {"/file/v1.1/", "/file/v1/"})
 @Slf4j
 public class FileController {
-
-
     /**
      * 上传文件
      *
@@ -44,4 +42,8 @@ public class FileController {
         return DataResult.ok("");
     }
 
+    @RequestMapping(value = "test", method = RequestMethod.GET)
+    public DataResult<String> upload(){
+        return DataResult.ok("aa");
+    }
 }

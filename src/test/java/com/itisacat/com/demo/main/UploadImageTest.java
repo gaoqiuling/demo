@@ -5,9 +5,6 @@ import com.alibaba.fastjson.TypeReference;
 import com.itisacat.basic.framework.rest.model.DataResult;
 import com.itisacat.com.demo.main.model.FileUploadResponse;
 import com.itisacat.com.demo.main.model.UploadFileRequest;
-import com.itisacat.common.support.model.ColumeNameEntity;
-import com.itisacat.common.support.model.ColumnIdEntity;
-import com.itisacat.common.util.ExcelUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.junit.Test;
@@ -23,9 +20,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.Arrays;
 import java.util.Date;
-import java.util.List;
 import java.util.Map;
 
 @SpringBootTest
