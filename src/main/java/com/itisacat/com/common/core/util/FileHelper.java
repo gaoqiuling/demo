@@ -1,9 +1,9 @@
-package com.itisacat.com.common.util;
+package com.itisacat.com.common.core.util;
 
 
 import com.itisacat.basic.framework.core.config.BaseProperties;
 import com.itisacat.basic.framework.core.exception.AppException;
-import com.itisacat.com.common.support.model.FileItemStream;
+import com.itisacat.com.common.core.model.FileItemStream;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.lang3.exception.ExceptionUtils;
@@ -12,7 +12,6 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.imageio.IIOException;

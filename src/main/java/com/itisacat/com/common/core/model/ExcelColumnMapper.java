@@ -1,4 +1,4 @@
-package com.itisacat.com.common.support.model;
+package com.itisacat.com.common.core.model;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

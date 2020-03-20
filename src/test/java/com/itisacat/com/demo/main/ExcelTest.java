@@ -1,9 +1,9 @@
 package com.itisacat.com.demo.main;
 
 import com.itisacat.com.demo.main.model.StudentRequest;
-import com.itisacat.com.common.support.model.ColumeNameEntity;
-import com.itisacat.com.common.support.model.ColumnIdEntity;
-import com.itisacat.com.common.util.ExcelUtil;
+import com.itisacat.com.common.core.model.ColumeNameEntity;
+import com.itisacat.com.common.core.model.ColumnIdEntity;
+import com.itisacat.com.common.core.util.ExcelUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

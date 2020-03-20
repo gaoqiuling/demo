@@ -1,8 +1,8 @@
 package com.itisacat.com.demo.main.model;
 
 import com.itisacat.basic.framework.core.util.EmptyUtils;
-import com.itisacat.com.common.support.model.ColumnIdEntity;
-import com.itisacat.com.common.support.model.ExcelColumnMapper;
+import com.itisacat.com.common.core.model.ColumnIdEntity;
+import com.itisacat.com.common.core.model.ExcelColumnMapper;
 import lombok.Data;
 
 import java.util.List;

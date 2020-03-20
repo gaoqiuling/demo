@@ -1,4 +1,4 @@
-package com.itisacat.com.common.support.model;
+package com.itisacat.com.common.core.model;
 
 
 public class ExcelColumnHeader implements Comparable<ExcelColumnHeader> {
