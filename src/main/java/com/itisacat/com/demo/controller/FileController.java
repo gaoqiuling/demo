@@ -5,6 +5,7 @@ import com.itisacat.basic.framework.core.util.DateUtil;
 import com.itisacat.basic.framework.core.util.EmptyUtils;
 import com.itisacat.basic.framework.rest.model.DataResult;
 import com.itisacat.com.demo.support.model.request.UploadRequest;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
@@ -43,6 +44,7 @@ public class FileController {
         return DataResult.ok("");
     }
 
+    @ApiOperation(value = "test", httpMethod = "GET", response = DataResult.class, notes = "test")
     @RequestMapping(value = "test", method = RequestMethod.GET)
     public DataResult<Date> test() {
         return DataResult.ok(DateUtil.currentDate());
